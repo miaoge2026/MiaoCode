@@ -1,0 +1,78 @@
+# 依赖目录
+node_modules/
+.pnp
+.pnp.js
+
+# 测试覆盖率
+coverage/
+
+# 构建输出
+dist/
+build/
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+tmp/
+temp/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 运行时文件
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 调试文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 缓存
+.cache/
+.parcel-cache/
+
+# 打包文件
+*.tgz
+*.tar.gz
+
+# 压缩文件
+*.zip
+*.rar
+
+# 二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 大文件（超过100MB）
+*.iso
+*.dmg
+*.vdi
+*.vmdk
+*.qcow2
+
+# MiaoCode 特定忽略
+node_modules/@anthropic-ai/claude-code/cli.js.map
+node_modules/@anthropic-ai/claude-code/cli.js

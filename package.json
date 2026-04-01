@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.88",
+    "axios": "^1.13.6",
+    "puppeteer": "^24.40.0"
+  }
+}
